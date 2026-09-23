@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 
-int main() {
-//    a = 20;
-//    b = 40
-//    c = 10
-//    double_float = a + b + c/3; 'prysvoyenya funkcii double_float znachenya a b c'
+int main() 
+{
+float a, b, c;
+float averenge;
+printf("Enter three numbers [x, y, z]: ");
+scanf("%f, %f, %f", &a ,&b ,&c);
+averenge = ( a + b + c ) / 3 ;
+printf("average %.2f\n\n", averenge);
 
 
 
-//    scanf("%f", &double_float); 'vvod znachenya double_float'
 
-//    printf("%f \n", double_float); 'vyvid znachenya double_float'
 
 
     return 0;
