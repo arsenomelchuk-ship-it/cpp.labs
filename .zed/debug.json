@@ -1,0 +1,10 @@
+[
+  {
+    "label": "Debug hello",
+    "adapter": "GDB",
+    "request": "launch",
+    "program": "$ZED_WORKTREE_ROOT/build/hello",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "build": "cmake: build"
+  }
+]
